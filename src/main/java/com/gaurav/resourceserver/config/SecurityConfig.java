@@ -21,7 +21,7 @@ public class SecurityConfig
 
         this.corsCustomizerResource.corsCustomizer(http);
 
-        return http.oauth2ResourceServer().jwt(jwk -> jwk.jwkSetUri("http://localhost:8080/oauth2/jwks")).and()
+        return http.oauth2ResourceServer().jwt(jwk -> jwk.jwkSetUri("https://authorization-server-dxji.onrender.com/oauth2/jwks")).and()
                 .authorizeRequests()
                 .anyRequest()
                 .authenticated().and().build();

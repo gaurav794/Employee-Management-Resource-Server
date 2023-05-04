@@ -44,6 +44,14 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2Eqbhf4At0BEra9yRVVEwMdShw5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -77,6 +85,11 @@
     ]
   }
 }</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.ResourceServerApplication">
     <configuration name="EmployeeManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="employeeManagement" />
@@ -155,6 +168,7 @@
       <workItem from="1681985377191" duration="4819000" />
       <workItem from="1682069678818" duration="1622000" />
       <workItem from="1682316596365" duration="1638000" />
+      <workItem from="1683182330903" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="Completed ERD and Database Setup, Developed Models, Repositories and Service Structure">
       <created>1663761932910</created>
